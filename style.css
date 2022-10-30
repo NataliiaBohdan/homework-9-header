@@ -15,6 +15,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 27px 0;
 }
 
 li {
@@ -29,6 +30,9 @@ a {
     color: #2F281E;
 }
 
+a:hover {
+    color: #FF9900;
+}
 
 .navigation {
     display: flex;
@@ -36,7 +40,14 @@ a {
     gap: 20px;
 }
 
+.header-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
 .first-screen {
+    padding-top: 80px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -45,12 +56,11 @@ a {
 }
 
 .first-screen-title {
+    padding-top: 53px;
     width: 500px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-
-
+    gap: 30px;
 }
 
 h1 {
@@ -65,21 +75,39 @@ p {
     line-height: 28px;
 }
 
-button {
-
-    background-color: #FF9900;
-    border-radius: 4px;
-    border: none;
-    padding: 13px 43px;
-    /* width: 180px; */
-}
-
-.get-started {
-    width: 180px;
-}
-
 .button-name {
     font-size: 16px;
     font-weight: 700;
+    line-height: 24px;
+}
+
+/* button {
+    border: 1px solid #2F281E;
+    background-color: transparent;
+    border-radius: 4px;
+} */
+
+.get-started {
+    width: fit-content;
+    padding: 13px 43px;
+    background-color: #FF9900;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.button-signin {
+    padding: 12px 23px;
+    border: 1px solid #2F281E;
+    border-radius: 4px;
+    color: #2F281E;
+    background-color: transparent;
+}
+
+.button-signup {
+    padding: 13px 23px;
+    background-color: #FF9900;
+    border: none;
+    border-radius: 4px;
     color: #fff;
 }
